@@ -1,7 +1,7 @@
-const API_BASE_URL = 'http://localhost:5000';
-// For physical device testing, use your computer's local IP:
+const API_BASE_URL = 'https://intrinsic.onrender.com';
+// For local development, use:
+// const API_BASE_URL = 'http://localhost:5000';
 // const API_BASE_URL = 'http://192.168.x.x:5000';
-// For production, use deployed backend URL:
 // const API_BASE_URL = 'https://your-deployed-backend.com';
 
 export async function analyzeStock(ticker) {
